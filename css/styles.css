@@ -191,3 +191,13 @@ footer {
     margin: 10px 0;
   }
 }
+
+.content-row {
+  display: flex;
+  align-items: center; /* Centers items vertically */
+  text-align: justify;
+}
+
+.text-content {
+  flex: 1; /* Allows the text content to fill the container */
+}
