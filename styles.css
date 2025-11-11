@@ -1,0 +1,645 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    color: #000000;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+p {
+    font-size: 1em;
+  }
+
+li {
+    font-size: 1em;
+  }
+
+header {
+    background-color: #841617;
+    color: #ffffff;
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo {
+    margin-right: 20px;
+}
+
+.ou-logo {
+    width: 80px; 
+    height: auto;
+}
+
+.header-right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    margin: 0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    flex: 1;
+    
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+nav ul li a:hover, nav ul li a.active {
+    text-decoration: underline;
+}
+
+.intro {
+    display: flex;
+    align-items: center;
+    padding: 20px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+.intro-text {
+    width: 60%;
+}
+
+.intro-text h2 {
+    font-size: 2.4em;
+    margin: 0 0 10px;
+}
+
+.intro-text p {
+    font-size: 1.0em;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+.project {
+    margin-bottom: 40px;
+}
+
+.project h3 {
+    font-size: 1em;
+    color: #841617;
+}
+
+.project h4 {
+    font-size: 1.2em;
+    margin-top: 10px;
+}
+
+.project p {
+    font-size: 1.0em;
+    line-height: 1.6;
+}
+
+.header-right nav {
+    position: relative;
+    top: 20px; /* Adjust the value as needed */
+}
+
+
+footer {
+    background-color: #841617; /* Crimson red OU color */
+    color: #ffffff;
+    text-align: center;
+    padding: 10px 0;
+    width: 100%;
+    margin-top: auto; /* Pushes the footer to the bottom */
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+label {
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+input[type="file"] {
+    margin-bottom: 15px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #841617; /* Crimson red OU color */
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1em;
+    width: 25%; /* Set button width to 1/4th of the input box size */
+    align-self: center; /* Center the button horizontally */
+}
+
+
+button:hover {
+    background-color: #7A1B14;
+}
+
+.profile-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.profile-details {
+    margin-top: 10px;
+}
+
+.bio-button {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: crimson;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.bio-button:hover {
+    background-color: darkred;
+}
+.profile-card {
+    flex: 0 0 30%;
+    background: white;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-right: 2rem;
+    color: black;
+    text-align: center;
+}
+
+.profile-image {
+    width: 50%;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+}
+
+.profile-details h2 {
+    margin: 0.5rem 0;
+    font-size: 1.5rem;
+}
+
+.profile-details p {
+    margin-bottom: 1rem;
+}
+
+.bio-button {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    background-color: darkred;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.bio-button:hover {
+    background-color: crimson;
+}
+
+.social-icons-card {
+    margin-top: 10px;
+}
+
+.social-icons-card a {
+    color: darkred;
+    margin: 0 10px;
+    font-size: 24px;
+    text-decoration: none;
+}
+
+.social-icons-card a:hover {
+    color: crimson;
+}
+
+.project .content {
+    display: flex;
+    align-items: center;
+}
+
+.text-column {
+    flex: 1;
+    padding-right: 15px;
+}
+
+.image-column {
+    flex: 1;
+    max-width: 800px;
+    margin-left: 15px;
+}
+
+.image-column img {
+    width: 100%;
+    height: auto;
+}
+
+.image-column figcaption {
+    text-align: center;
+}
+
+.info-section {
+    display: flex;
+    justify-content: space-between; 
+    padding: 20px;
+    border-bottom: 1px solid #ddd;
+}
+
+.info-column {
+    flex: 1;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.education-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.education-list li {
+    margin-bottom: 10px;
+}
+
+.education-list li i {
+    margin-right: 10px;
+}
+
+/* .contact-section {
+    display: flex;
+    justify-content: space-between; 
+    padding: 20px;
+    border-bottom: 1px solid #ddd;
+}
+
+.contact-left {
+    flex: 1;
+    max-width: 60%; 
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.contact-right {
+    flex: 1;
+    max-width: 30%; 
+    padding: 10px;
+    box-sizing: border-box;
+} */
+
+/* .contact-section {
+    display: flex;
+    flex-wrap: wrap;         
+    gap: 2rem;               
+    padding: 20px;
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 2rem;    
+}
+
+.contact-left,
+.contact-right {
+    flex: 1 1 45%;
+    min-width: 300px;        
+    padding: 10px;
+    box-sizing: border-box;
+} */
+
+
+.center-text {
+    text-align: center;
+}
+
+.center-icons {
+    display: flex;
+    justify-content: center;
+    gap: 18px;
+    margin-top: 10px;
+}
+
+
+.contact-section {
+    display: flex;
+    flex-wrap: wrap; /* So columns can wrap on small screens */
+    gap: 2rem;       /* Space between columns */
+    padding: 20px;
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 2rem;
+  }
+  
+  .contact-left,
+  .contact-right {
+    flex: 1 1 45%;   /* Each column ~45% wide */
+    min-width: 300px;  /* Ensures columns don't get too narrow */
+    padding: 10px;
+    box-sizing: border-box;
+  }
+  
+
+
+.map-embed iframe {
+    width: 100%;
+    height: 300px; 
+    border: none;
+}
+
+.facebook-embed {
+    display: flex;               /* Allows using justify-content */
+    justify-content: center;     /* Centers child horizontally */
+    width: 100%;                 /* Parent container is full width */
+  }
+  
+
+.facebook-embed iframe {
+    display: block;              /* So margins apply properly if you use them */
+    max-width: 500px;            /* The largest width you want */               
+    height: 500px;
+    border: none;
+    overflow: hidden;
+}
+
+.join-us-photo {
+    max-width: 100%; /* Never exceed its container’s width */
+    height: auto;    /* Keep aspect ratio */
+    display: block;  /* Removes any inline spacing issues */
+    margin-top: 1rem;/* Add some space above/below if you like */
+  }
+
+footer {
+    background-color: #841617; 
+    color: #ffffff;
+    text-align: center;
+    padding: 10px 0;
+    width: 100%;
+    margin-top: auto; 
+}
+
+.social-icons {
+    margin-top: 10px;
+}
+
+.social-icons a {
+    color: #ffffff;
+    margin: 0 10px;
+    font-size: 24px;
+    text-decoration: none;
+}
+
+.social-icons a:hover {
+    color: #dddddd;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-bottom: 40px; 
+}
+
+/* Word cloud image on homepage */
+.word-map-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
+    border-top: 1px solid #ddd;
+    background-color: #ffffff; /* White background to match the theme */
+}
+
+.word-map-image {
+    max-width: 100%;
+    height: auto;
+    border: 2px solid #841617; /* Crimson red border to match the theme */
+    border-radius: 10px;
+    padding: 10px;
+    background-color: #ffffff; /* White background for the image */
+}
+
+/* Experiences and awards home page */
+
+.experience-awards {
+    padding: 20px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+.experience-awards h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #841617; /* Crimson red OU color */
+}
+
+.experience-awards-columns {
+    display: flex;
+    justify-content: space-between;
+}
+
+.column {
+    width: 48%;
+}
+
+.column ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.column li {
+    font-size: 1em;
+    margin-bottom: 10px;
+}
+
+.word-map-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
+    border-top: 1px solid #ddd;
+    background-color: #ffffff; /* White background to match the theme */
+}
+
+.word-map-image {
+    max-width: 100%;
+    height: auto;
+    border: 2px solid #841617; /* Crimson red border to match the theme */
+    border-radius: 10px;
+    padding: 10px;
+    background-color: #ffffff; /* White background for the image */
+}
+
+/* Carousel styles */
+
+.carousel {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+
+.carousel-images {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.carousel-images img {
+    width: 100%;
+    flex-shrink: 0;
+}
+
+.carousel-control {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    z-index: 1;
+    width: auto; /* Change the width to auto */
+    height: 50px; /* Ensure the height is appropriate for the button */
+    font-size: 20px; /* Adjust font size as needed */
+}
+
+.carousel-control.prev {
+    left: 10px;
+}
+
+.carousel-control.next {
+    right: 10px;
+}
+
+.carousel-images img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+.carousel-section {
+    position: relative;
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    overflow: hidden;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+/* What's New Section */
+.whats-new h2 { margin-bottom: 10px; }
+.whats-new-intro { color: #555; margin-bottom: 20px; }
+
+.whats-new-item {
+  border: 1px solid #e6e6e6;
+  border-radius: 10px;
+  margin: 14px 0;
+  background: #fff;
+  overflow: hidden;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+
+.whats-new-item summary {
+  cursor: pointer;
+  padding: 14px 18px;
+  display: flex;
+  flex-direction: column;
+}
+
+.wn-title { font-weight: 600; color: #222; }
+.wn-meta { font-size: 0.9rem; color: #666; }
+
+.wn-caret { float:right; transition: transform .2s ease; color:#841617; }
+.whats-new-item[open] .wn-caret { transform: rotate(90deg); }
+
+.whats-new-item .wn-content { padding: 14px 18px; border-top: 1px solid #eee; }
+
+.wn-links a { color:#841617; text-decoration:none; border-bottom:1px dashed #841617; }
+.wn-links a:hover { border-bottom-style:solid; }
+
+/* Badges */
+.wn-badges { margin-left: 10px; }
+.badge { font-size:.75rem; padding:2px 6px; border-radius:6px; }
+.badge-q1 { background:#eaf6ec; color:#1a7f37; }
+.badge-sjr { background:#eef2ff; color:#1e3a8a; }
+
+p strong { color: #841617; }
+p { text-align: justify; line-height: 1.45; }
+
+
+/* Highlight publication dates in What's New */
+/* Pulsing date highlight */
+.wn-date-pulse {
+    font-weight: 700;
+    color: #841617; /* OU Crimson */
+    display: inline-block;
+    animation: pulse 2.2s ease-in-out infinite;
+}
+
+/* Pulse animation */
+@keyframes pulse {
+    0%   { transform: scale(1);   opacity: 0.95; }
+    50%  { transform: scale(1.18); opacity: 1;    }
+    100% { transform: scale(1);   opacity: 0.95; }
+}
+
+
+.wn-meta {
+    font-size: 0.95rem;
+    color: #555;
+    display: block;
+    margin-top: 2px;
+}
+
+/* Footer adjustments for contact and publications pages */
+
+footer .copyright {
+  width: 100%;
+  text-align: center;
+  margin: 0;              /* remove default p margin */
+}
+
+/* optional: keep icons centered underneath */
+footer .social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  margin-top: 8px;
+}
