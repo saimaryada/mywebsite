@@ -1,189 +1,174 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Sai Kiran Maryada — Research</title>
-    <link rel="stylesheet" href="styles.css" />
-    <link rel="icon" type="image/png" href="images/favicon.png">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"/>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Research — Sai Kiran Maryada</title>
+  <link rel="icon" type="image/png" href="images/favicon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,400;8..60,600;8..60,700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <div class="wrapper">
-    <header>
-      <div class="container header-container">
-        <div class="logo">
-          <img src="images/oulogo.png" alt="OU Logo" class="ou-logo" />
-        </div>
-        <div class="header-right">
-          <h1>Sai Kiran Maryada</h1>
-          <nav>
-            <ul>
-              <li><a href="index.html">Home</a></li>
-              <li><a href="research.html" class="active">Research</a></li>
-              <li><a href="active-projects.html">Active Projects</a></li>
-              <li><a href="publications.html">Publications</a></li>
-              <li><a href="contact.html">Contact</a></li>
-            </ul>
-          </nav>
-        </div>
-      </div>
-    </header>
+<div class="page">
 
-    <section class="container">
-      <h2>Research</h2>
-
-      <div class="project">
-        <!-- Keep DISC overview, but updated to reference you -->
-        <!-- <p align="justify">
-          I am a Research Scientist at the
-          <a href="https://www.ou.edu/disc">Data Institute for Societal Challenges (DISC)</a>
-          at the University of Oklahoma. DISC is dedicated to creating innovations in
-          data science, artificial intelligence, machine learning, and data-enabled research.
-        </p> -->
-
-        <p align="justify">
-          DISC develops and grows convergent research teams dedicated to solving local to global-scale challenges.
-          This is achieved through the implementation of foundational data science and data-enabled research related to
-          aerospace, defense, and global security; community and societal transformation; the future of health; and
-          environment, energy, and sustainability. DISC is leading advances in the following strategic focus areas:
-        </p>
-
-        <ul>
-          <li>
-            <p align="justify">
-              <strong>Data Science Applications:</strong> Developing analytics that combine computer science, AI/ML,
-              cognitive psychology, decision science, and human-computer teaming to create robust, explainable,
-              fair, efficient, and reliable data-enabled solutions that can be transitioned to real-world use.
-            </p>
-          </li>
-
-          <img
-            src="images/researchdisc.png"
-            alt="DISC Research"
-            style="float:right;width:30em;height:15em;margin-left:15px;"
-          />
-
-          <li>
-            <p align="justify">
-              <strong>Human-Guided AI and ML:</strong> Leveraging innovative AI/ML to advance science and engineering
-              and to build impactful, trustworthy solutions.
-            </p>
-          </li>
-          <li>
-            <p align="justify">
-              <strong>Human-Computer Teaming:</strong> Integrating the strengths of humans and intelligent systems to
-              address complex problems and decisions.
-            </p>
-          </li>
-          <li>
-            <p align="justify">
-              <strong>Predictive Analytics:</strong> Creating tools and systems capable of extracting, assimilating,
-              and analyzing data for accurate, timely, and reliable predictions (with quantified uncertainty) to
-              transform domains such as health and energy.
-            </p>
-          </li>
-          <li>
-            <p align="justify">
-              <strong>Decision Environments & Visual Analytics:</strong> Building interactive, explainable, and
-              human-centered interfaces that help experts explore data and make confident, informed decisions.
-            </p>
-          </li>
-          <li>
-            <p align="justify">
-              <strong>Scalable Software & Hardware:</strong> Enabling real-time and trustworthy AI/ML with modern
-              computing stacks and scalable data pipelines.
-            </p>
-          </li>
-        </ul>
-
-        <!-- Your research focus -->
-        <h3>My Research Focus</h3>
-        <p align="justify">
-          My work spans two applied verticals—<strong>Healthcare AI</strong> and
-          <strong>Energy & Subsurface Analytics</strong>—with a common emphasis on explainable
-          machine learning, medical and scientific imaging, predictive modeling, and human-centered
-          visual analytics. I collaborate with clinicians, public health teams, and geoscientists to
-          translate algorithmic innovation into deployable, real-world systems.
-        </p>
-
-        <div class="research-focus-wrapper" style="display:flex;gap:40px;flex-wrap:wrap;margin:12px 0 4px;">
-          <div style="flex:1;min-width:280px;">
-            <h4><i class="fas fa-notes-medical" style="color:#841617;"></i> Healthcare AI</h4>
-            <ul>
-              <li>Clinical decision support & workflow optimization</li>
-              <li>Medical image segmentation & classification (CT, MRI, retinal, mammography)</li>
-              <li>Explainable & trustworthy AI for diagnostic interpretation</li>
-              <li>Risk prediction and patient stratification</li>
-              <li>Interactive visual analytics for clinicians and researchers</li>
-            </ul>
-          </div>
-          <div style="flex:1;min-width:280px;">
-            <h4><i class="fas fa-oil-can" style="color:#841617;"></i> Energy & Subsurface Analytics</h4>
-            <ul>
-              <li>Image-based estimation of elastic and petrophysical properties</li>
-              <li>SEM/FIB-SEM segmentation & pore structure analysis</li>
-              <li>Subsurface characterization and reservoir property prediction</li>
-              <li>Self-supervised & ViT-based microstructure understanding</li>
-              <li>Predictive modeling for geoscience decision-making</li>
-            </ul>
-          </div>
-        </div>
-
-        <!-- Selected projects (replacing Ebert's list with yours) -->
-        <h3>Selected Research Projects</h3>
-        <ul>
-          <li>
-            <p align="justify">
-              <strong>Image-based Estimation of Rock Mechanical Properties (JGSE, 2025):</strong>
-              Deep learning and texture/shape proxies from SEM images to predict Young’s modulus and related
-              properties, reducing lab cost and turnaround time.
-            </p>
-          </li>
-          <li>
-            <p align="justify">
-              <strong>Self-Supervised ViT Segmentation for Shale Microstructure (SPE Europec @ EAGE, 2025):</strong>
-              Vision Transformer–based self-supervised segmentation of FIB-SEM images into 12 sub-classes, grouped
-              into organic, inorganic, and pore classes for large-scale analysis.
-            </p>
-          </li>
-          <li>
-            <p align="justify">
-              <strong>Fundus/Retinal Imaging Pipelines (SPIE Medical Imaging):</strong>
-              Two-stage pipelines for robust dataset curation and classification; transfer learning approaches for
-              improved detection and screening performance.
-            </p>
-          </li>
-          <li>
-            <p align="justify">
-              <strong>Clinical Risk & Workflow Analytics:</strong>
-              Predictive modeling and explainable visual analytics dashboards that integrate into decision workflows
-              for public health and clinical partners.
-            </p>
-          </li>
-        </ul>
-
-        <!-- Optional: link to What's New -->
-        <p>
-          See <a href="index.html#whats-new">What’s New</a> for recent abstracts and links, and
-          <a href="publications.html">Publications</a> for the full list.
-        </p>
-      </div>
-    </section>
+<header class="site-header">
+  <div class="container site-header__inner">
+    <a href="index.html" class="brand">
+      <span class="brand__mark">SM</span>
+      <span class="brand__name">Sai Kiran Maryada</span>
+    </a>
+    <nav class="site-nav" aria-label="Main">
+      <a href="index.html">Home</a>
+      <a href="research.html" class="is-active" aria-current="page">Research</a>
+      <a href="active-projects.html">Projects</a>
+      <a href="publications.html">Publications</a>
+      <a href="contact.html">Contact</a>
+    </nav>
   </div>
+</header>
 
-  <footer>
-        <div class="container">
-            <p class="copyright">&copy; 2025 Sai Kiran Maryada. All rights reserved.</p>
-            <div class="social-icons">
-            <a href="https://www.linkedin.com/in/saikiranreddymaryada/" target="_blank" class="fab fa-linkedin"></a>
-            <a href="https://scholar.google.com/citations?user=Wo5n5wgAAAAJ&hl=en" target="_blank" class="fas fa-graduation-cap"></a>
-            <a href="https://www.facebook.com/DISCatOU/" target="_blank" class="fab fa-facebook"></a>
-            </div>
+<main id="top">
+
+  <section class="container page-intro">
+    <div class="eyebrow">Research Scientist · Data Institute for Societal Challenges</div>
+    <h1 class="page-intro__title">Research</h1>
+    <p class="page-intro__lead">My work spans two applied verticals — <strong>Healthcare AI</strong> and <strong>Energy &amp; Subsurface Analytics</strong> — with a common emphasis on explainable machine learning, medical and scientific imaging, predictive modeling, and human-centered visual analytics. I collaborate with clinicians, public health teams, and geoscientists to translate algorithmic innovation into deployable, real-world systems.</p>
+  </section>
+
+  <!-- Research focus -->
+  <section class="band">
+    <div class="container areas">
+      <div class="area">
+        <div class="area__head"><span class="area__num">01</span><h2 class="area__title">Healthcare AI</h2></div>
+        <ul class="rule-list">
+          <li>Clinical decision support &amp; workflow optimization</li>
+          <li>Medical image segmentation &amp; classification (CT, MRI, retinal, mammography)</li>
+          <li>Explainable &amp; trustworthy AI for diagnostic interpretation</li>
+          <li>Risk prediction and patient stratification</li>
+          <li>Interactive visual analytics for clinicians and researchers</li>
+        </ul>
+      </div>
+      <div class="area">
+        <div class="area__head"><span class="area__num">02</span><h2 class="area__title">Energy &amp; Subsurface Analytics</h2></div>
+        <ul class="rule-list">
+          <li>Image-based estimation of elastic and petrophysical properties</li>
+          <li>SEM/FIB-SEM segmentation &amp; pore structure analysis</li>
+          <li>Subsurface characterization and reservoir property prediction</li>
+          <li>Self-supervised &amp; ViT-based microstructure understanding</li>
+          <li>Predictive modeling for geoscience decision-making</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- Selected projects -->
+  <section class="container section section-stack">
+    <h2 class="section-title">Selected research projects</h2>
+    <div class="entry-list">
+      <article class="entry">
+        <span class="entry__label">JGSE · 2025</span>
+        <div class="entry__body">
+          <h3 class="entry__title">Image-based Estimation of Rock Mechanical Properties</h3>
+          <p class="entry__desc">Deep learning and texture/shape proxies from SEM images to predict Young’s modulus and related properties, reducing lab cost and turnaround time.</p>
         </div>
-    </footer>
+      </article>
+      <article class="entry">
+        <span class="entry__label">SPE Europec · 2025</span>
+        <div class="entry__body">
+          <h3 class="entry__title">Self-Supervised ViT Segmentation for Shale Microstructure</h3>
+          <p class="entry__desc">Vision Transformer–based self-supervised segmentation of FIB-SEM images into 12 sub-classes, grouped into organic, inorganic, and pore classes for large-scale analysis.</p>
+        </div>
+      </article>
+      <article class="entry">
+        <span class="entry__label">SPIE Med. Imaging</span>
+        <div class="entry__body">
+          <h3 class="entry__title">Fundus/Retinal Imaging Pipelines</h3>
+          <p class="entry__desc">Two-stage pipelines for robust dataset curation and classification; transfer learning approaches for improved detection and screening performance.</p>
+        </div>
+      </article>
+      <article class="entry">
+        <span class="entry__label">Ongoing</span>
+        <div class="entry__body">
+          <h3 class="entry__title">Clinical Risk &amp; Workflow Analytics</h3>
+          <p class="entry__desc">Predictive modeling and explainable visual analytics dashboards that integrate into decision workflows for public health and clinical partners.</p>
+        </div>
+      </article>
+    </div>
+    <p class="entry__desc">See <a href="index.html#publications">recent publications</a> for abstracts and links, and <a href="publications.html">Publications</a> for the full list.</p>
+  </section>
 
-  <script src="script.js"></script>
+  <!-- DISC -->
+  <section class="band">
+    <div class="container section section-stack">
+      <div class="split">
+        <div class="split__main prose">
+          <h2 class="section-title">About DISC</h2>
+          <p>I am a Research Scientist at the <a href="https://www.ou.edu/disc">Data Institute for Societal Challenges (DISC)</a> at the University of Oklahoma. DISC develops and grows convergent research teams dedicated to solving local to global-scale challenges.</p>
+          <p>This is achieved through the implementation of foundational data science and data-enabled research related to aerospace, defense, and global security; community and societal transformation; the future of health; and environment, energy, and sustainability. DISC is leading advances in the following strategic focus areas.</p>
+        </div>
+        <figure class="figure">
+          <img src="images/researchdisc.png" alt="DISC research focus areas" loading="lazy">
+        </figure>
+      </div>
+      <div class="focus-grid">
+        <div class="card focus">
+          <h3 class="focus__title">Data Science Applications</h3>
+          <p class="card__desc">Developing analytics that combine computer science, AI/ML, cognitive psychology, decision science, and human-computer teaming to create robust, explainable, fair, efficient, and reliable data-enabled solutions that can be transitioned to real-world use.</p>
+        </div>
+        <div class="card focus">
+          <h3 class="focus__title">Human-Guided AI and ML</h3>
+          <p class="card__desc">Leveraging innovative AI/ML to advance science and engineering and to build impactful, trustworthy solutions.</p>
+        </div>
+        <div class="card focus">
+          <h3 class="focus__title">Human-Computer Teaming</h3>
+          <p class="card__desc">Integrating the strengths of humans and intelligent systems to address complex problems and decisions.</p>
+        </div>
+        <div class="card focus">
+          <h3 class="focus__title">Predictive Analytics</h3>
+          <p class="card__desc">Creating tools and systems capable of extracting, assimilating, and analyzing data for accurate, timely, and reliable predictions (with quantified uncertainty) to transform domains such as health and energy.</p>
+        </div>
+        <div class="card focus">
+          <h3 class="focus__title">Decision Environments &amp; Visual Analytics</h3>
+          <p class="card__desc">Building interactive, explainable, and human-centered interfaces that help experts explore data and make confident, informed decisions.</p>
+        </div>
+        <div class="card focus">
+          <h3 class="focus__title">Scalable Software &amp; Hardware</h3>
+          <p class="card__desc">Enabling real-time and trustworthy AI/ML with modern computing stacks and scalable data pipelines.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer id="contact" class="site-footer">
+  <div class="container site-footer__inner">
+    <div class="site-footer__grid">
+      <div class="site-footer__intro">
+        <div class="site-footer__title">Get in touch</div>
+        <div class="site-footer__blurb">Open to collaborations in healthcare AI, subsurface analytics, and visual analytics.</div>
+      </div>
+      <div class="site-footer__col">
+        <div class="site-footer__label">Contact</div>
+        <a href="mailto:sai.maryada@ou.edu">sai.maryada@ou.edu</a>
+        <a href="tel:4053254158">405-325-4158</a>
+      </div>
+      <div class="site-footer__col">
+        <div class="site-footer__label">Elsewhere</div>
+        <a href="https://scholar.google.com/citations?user=Wo5n5wgAAAAJ&amp;hl=en">Google Scholar</a>
+        <a href="https://www.linkedin.com/in/saikiranreddymaryada/">LinkedIn</a>
+        <a href="https://www.facebook.com/DISCatOU/">DISC on Facebook</a>
+      </div>
+    </div>
+    <div class="site-footer__bottom">
+      <span>© 2026 Sai Kiran Maryada</span>
+      <span>Data Institute for Societal Challenges · University of Oklahoma</span>
+    </div>
+  </div>
+</footer>
+
+</div>
 </body>
 </html>

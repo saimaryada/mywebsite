@@ -1,101 +1,116 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Contact - Sai Kiran Maryada</title>
-  <link rel="stylesheet" href="styles.css" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Contact — Sai Kiran Maryada</title>
   <link rel="icon" type="image/png" href="images/favicon.png">
-  <link rel="stylesheet" 
-        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"/>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,400;8..60,600;8..60,700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <header>
-    <div class="container header-container">
-      <div class="logo">
-        <img src="images/oulogo.png" alt="OU Logo" class="ou-logo">
-      </div>
-      <div class="header-right">
-        <h1>Sai Kiran Maryada</h1>
-        <nav>
-          <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="research.html">Research</a></li>
-            <li><a href="active-projects.html">Active Projects</a></li>
-            <li><a href="publications.html">Publications</a></li>
-            <li><a href="contact.html" class="active">Contact</a></li>
-          </ul>
-        </nav>
-      </div>
-    </div>
-  </header>
+<div class="page">
 
-  <!-- Facebook on Left, Join Us on Right -->
-  <section class="contact-section container">
-    <div class="contact-left">
-      <h3>Find us on Facebook</h3>
-      <div class="facebook-embed">
-        <!-- Replace the URL if needed, or generate fresh from the FB dev site. -->
-        <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FDISCatOU%2F%3Flocale%3Dhr_HR&tabs=timeline&width=340&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="600" height="450" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
-      </div>
-    </div>
+<header class="site-header">
+  <div class="container site-header__inner">
+    <a href="index.html" class="brand">
+      <span class="brand__mark">SM</span>
+      <span class="brand__name">Sai Kiran Maryada</span>
+    </a>
+    <nav class="site-nav" aria-label="Main">
+      <a href="index.html">Home</a>
+      <a href="research.html">Research</a>
+      <a href="active-projects.html">Projects</a>
+      <a href="publications.html">Publications</a>
+      <a href="contact.html" class="is-active" aria-current="page">Contact</a>
+    </nav>
+  </div>
+</header>
 
-    <div class="contact-right">
-      <h2>Join us:</h2>
-      <p>
-        We are always looking for motivated and passionate students to join our DISC team 
-        and collaborate on cross disciplinary research. If you are interested, email us at 
-        <strong>
-          <a href="mailto:disclab_opportunities@groups.ou.edu">disclab_opportunities@groups.ou.edu</a>
-        </strong>.
-        We look forward to hearing from you!
-      </p>
-      <!-- New image below the text -->
-    <img src="images/discgroupimage.jpg" alt="DISC Group Image" class="join-us-photo" />
+<main id="top">
+
+  <section class="container page-intro">
+    <div class="eyebrow">Research Scientist · Data Institute for Societal Challenges</div>
+    <h1 class="page-intro__title">Contact</h1>
+    <div class="btn-row">
+      <a href="mailto:sai.maryada@ou.edu" class="btn btn--primary">Email me</a>
+      <a href="https://scholar.google.com/citations?user=Wo5n5wgAAAAJ&amp;hl=en" class="btn btn--secondary">Google Scholar</a>
+      <a href="https://www.linkedin.com/in/saikiranreddymaryada/" class="btn btn--secondary">LinkedIn</a>
     </div>
   </section>
 
-  <!-- Map on Left, Contact Info on Right -->
-  <section class="contact-section container">
-    <div class="contact-left">
-      <h3>Our Location</h3>
-      <div class="map-embed">
-        <!-- Paste fresh Google Maps embed code here -->
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d436.012934334466!2d-97.43941726178805!3d35.185808091231685!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87b268206c31449b%3A0x8734244765131dc9!2sFive%20Partners%20Place!5e0!3m2!1sen!2sus!4v1740969063657!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+  <section class="band">
+    <div class="container section contact-grid">
+      <div class="contact-block prose">
+        <h2 class="contact-block__title">Join us</h2>
+        <p>We are always looking for motivated and passionate students to join our DISC team and collaborate on cross disciplinary research. If you are interested, email us at <a href="mailto:disc@ou.edu">disc@ou.edu</a>. We look forward to hearing from you!</p>
+        <figure class="figure">
+          <div class="media"><img src="images/discgroupimage.jpg" alt="DISC research group" loading="lazy"></div>
+          <figcaption>DISC research group</figcaption>
+        </figure>
       </div>
-    </div>
-
-    <div class="contact-right">
-      <h2>Contact</h2>
-      <p>
-        <strong>
-          <a href="https://www.ou.edu/disc">
-            Data Institute for Societal Challenges (DISC)
-          </a>
-        </strong>
-      </p>
-      <p>
-        Five Partners Place<br>
-        201 Stephenson Pkwy, Ste 4600<br>
-        Norman, OK 73019
-      </p>
-      <p>
-        <strong>Phone:</strong> 405-325-4158<br>
-        <strong>Email:</strong> <a href="mailto:disc@ou.edu">disc@ou.edu</a><br>
-        <strong>Hours:</strong> Mon-Fri 8 a.m. - 5 p.m.
-      </p>
+      <div class="contact-block">
+        <h2 class="contact-block__title">Data Institute for Societal Challenges</h2>
+        <address class="address">
+          <a href="https://www.ou.edu/disc">DISC</a> · University of Oklahoma<br>
+          Five Partners Place<br>
+          201 Stephenson Pkwy, Ste 4600<br>
+          Norman, OK 73019
+        </address>
+        <dl class="facts facts--plain">
+          <div><dt>Phone</dt><dd><a href="tel:4053254158">405-325-4158</a></dd></div>
+          <div><dt>Email</dt><dd><a href="mailto:disc@ou.edu">disc@ou.edu</a></dd></div>
+          <div><dt>Hours</dt><dd>Mon–Fri 8 a.m. – 5 p.m.</dd></div>
+        </dl>
+      </div>
     </div>
   </section>
 
-  <footer>
-        <div class="container">
-            <p class="copyright">&copy; 2025 Sai Kiran Maryada. All rights reserved.</p>
-            <div class="social-icons">
-            <a href="https://www.linkedin.com/in/saikiranreddymaryada/" target="_blank" class="fab fa-linkedin"></a>
-            <a href="https://scholar.google.com/citations?user=Wo5n5wgAAAAJ&hl=en" target="_blank" class="fas fa-graduation-cap"></a>
-            <a href="https://www.facebook.com/DISCatOU/" target="_blank" class="fab fa-facebook"></a>
-            </div>
-        </div>
-  </footer>
+  <section class="container section contact-grid">
+    <div class="contact-block">
+      <h2 class="contact-block__title">Our location</h2>
+      <div class="embed">
+        <iframe title="Map of Five Partners Place, Norman, OK" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d436.012934334466!2d-97.43941726178805!3d35.185808091231685!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87b268206c31449b%3A0x8734244765131dc9!2sFive%20Partners%20Place!5e0!3m2!1sen!2sus!4v1740969063657!5m2!1sen!2sus" allowfullscreen loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+    </div>
+    <div class="contact-block">
+      <h2 class="contact-block__title">Find us on Facebook</h2>
+      <div class="embed embed--social">
+        <iframe title="DISC on Facebook" src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FDISCatOU%2F&amp;tabs=timeline&amp;width=500&amp;height=500&amp;small_header=false&amp;adapt_container_width=true&amp;hide_cover=false&amp;show_facepile=true" scrolling="no" loading="lazy" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer id="contact" class="site-footer">
+  <div class="container site-footer__inner">
+    <div class="site-footer__grid">
+      <div class="site-footer__intro">
+        <div class="site-footer__title">Get in touch</div>
+        <div class="site-footer__blurb">Open to collaborations in healthcare AI, subsurface analytics, and visual analytics.</div>
+      </div>
+      <div class="site-footer__col">
+        <div class="site-footer__label">Contact</div>
+        <a href="mailto:sai.maryada@ou.edu">sai.maryada@ou.edu</a>
+        <a href="tel:4053254158">405-325-4158</a>
+      </div>
+      <div class="site-footer__col">
+        <div class="site-footer__label">Elsewhere</div>
+        <a href="https://scholar.google.com/citations?user=Wo5n5wgAAAAJ&amp;hl=en">Google Scholar</a>
+        <a href="https://www.linkedin.com/in/saikiranreddymaryada/">LinkedIn</a>
+        <a href="https://www.facebook.com/DISCatOU/">DISC on Facebook</a>
+      </div>
+    </div>
+    <div class="site-footer__bottom">
+      <span>© 2026 Sai Kiran Maryada</span>
+      <span>Data Institute for Societal Challenges · University of Oklahoma</span>
+    </div>
+  </div>
+</footer>
+
+</div>
 </body>
 </html>
