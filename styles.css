@@ -292,7 +292,8 @@ a:hover { color: var(--crimson-dark); text-decoration: underline; }
   text-wrap: balance;
 }
 
-.hero__title em { font-style: normal; color: var(--crimson); }
+.hero__title em { display: block; font-style: normal; color: var(--crimson); }
+.nowrap { white-space: nowrap; }
 
 .stats {
   margin: 10px 0 0;
